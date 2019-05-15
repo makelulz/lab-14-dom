@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1 id="greetings">Howdy!</h1>
+      <script type="text/javascript">
+        document.title = "Howdy!";
+        var h1 = document.getElementById ("greetings");
+        h1.innerHTML = "Howdy Javascript!";
+        var h1tags = document.getElementsByTagName ("h1");
+        h1tags[0].innerHTML = "Hello Tags!";
+        var newElement = document.createElement ("p");
+        newElement.innerHTML = "Made with JavaScript";
+        document.body.appendChild(newElement);
+
+      </script>
+  </body>
+</html>
